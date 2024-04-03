@@ -65,7 +65,7 @@ const Counter = () => {
                     <p className="pt-4">Segundos</p>
                 </div>
             </div>
-            <Link href="/define" title={title} setTitle={setTitle()} className="text-black font-bold absolute bottom-0 right-0 py-2 px-8 mr-4 mb-4 bg-white rounded-lg">Criar Contador →</Link>
+            <Link href="/define" className="text-black font-bold absolute bottom-0 right-0 py-2 px-8 mr-4 mb-4 bg-white rounded-lg">Criar Contador →</Link>
         </div>
     )
 };
